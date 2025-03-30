@@ -345,7 +345,8 @@ void Game::render() {
     }
 
     else if (gameState == WIN) {
-        TextRenderer::drawText(renderer, this->font, "YOU WIN!", 340, 280);
+        string gameOverText = "YOU WIN! Time Left: " + to_string(secondsLeft) + " sec";
+        TextRenderer::drawText(renderer, this->font, gameOverText, 200, 280);
     }
 
     else if (gameState == GAMEOVER) {
