@@ -1,0 +1,124 @@
+# depslib dependency file v1.0
+1743001457 source:f:\c++\sdl\main.cpp
+	<iostream>
+	<SDL.h>
+	<vector>
+	<algorithm>
+	<ctime>
+	<Wall.h>
+	<Constants.h>
+	<Bullet.h>
+	<PlayerTank.h>
+	<EnemyTank.h>
+	<Game.h>
+
+1741858224 source:f:\c++\sdl\src\header.cpp
+	"header.h"
+
+1741858224 f:\c++\sdl\src\header.h
+
+1743230464 source:f:\c++\sdl\source\wall.cpp
+	"Wall.h"
+	"Constants.h"
+
+1743226256 f:\c++\sdl\source\wall.h
+	<SDL.h>
+
+1742529510 source:f:\c++\sdl\source\constants.cpp
+	"Constants.h"
+
+1742529510 f:\c++\sdl\source\constants.h
+
+1743158549 source:f:\c++\sdl\source\bullet.cpp
+	"Bullet.h"
+	"Constants.h"
+
+1743136918 f:\c++\sdl\source\bullet.h
+	<SDL.h>
+
+1743230885 source:f:\c++\sdl\source\playertank.cpp
+	"PlayerTank.h"
+	"EnemyTank.h"
+	"Constants.h"
+	<algorithm>
+
+1743230885 f:\c++\sdl\source\playertank.h
+	<vector>
+	<SDL.h>
+	"Bullet.h"
+	"Wall.h"
+	"Steel.h"
+
+1743231118 source:f:\c++\sdl\source\enemytank.cpp
+	"EnemyTank.h"
+	"PlayerTank.h"
+	"Constants.h"
+	<algorithm>
+	<cmath>
+
+1743231118 f:\c++\sdl\source\enemytank.h
+	<SDL.h>
+	<vector>
+	"Bullet.h"
+	"Wall.h"
+	"Steel.h"
+
+1743342772 source:f:\c++\sdl\source\game.cpp
+	"Game.h"
+	"Constants.h"
+	"SDL.h"
+	"TextRenderer.h"
+	"Explosion.h"
+	"Bullet.h"
+	"Map.h"
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<iostream>
+	<algorithm>
+
+1743330266 f:\c++\sdl\source\game.h
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<vector>
+	"Wall.h"
+	"Steel.h"
+	"EnemyTank.h"
+	"PlayerTank.h"
+	"Explosion.h"
+
+1743327851 source:f:\c++\sdl\source\textrenderer.cpp
+	"TextRenderer.h"
+	<iostream>
+
+1742833121 f:\c++\sdl\source\textrenderer.h
+	<string>
+	<SDL.h>
+	<SDL_ttf.h>
+
+1743064143 source:f:\c++\sdl\source\explosion.cpp
+	"Explosion.h"
+
+1743064074 f:\c++\sdl\source\explosion.h
+	<SDL.h>
+	<vector>
+
+1743228093 source:f:\c++\sdl\source\map.cpp
+	"Map.h"
+	<fstream>
+	<sstream>
+	<iostream>
+	<vector>
+	<string>
+
+1743225277 f:\c++\sdl\source\map.h
+	<vector>
+	<string>
+
+1743226256 f:\c++\sdl\source\steel.h
+	<SDL.h>
+
+1743230505 source:f:\c++\sdl\source\steel.cpp
+	"Steel.h"
+	"Constants.h"
+

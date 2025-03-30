@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SDL" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SDL" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="src" />
+					<Add directory="source" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SDL" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+					<Add directory="src" />
+					<Add directory="source" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="main.cpp" />
+		<Unit filename="source/Bullet.cpp" />
+		<Unit filename="source/Bullet.h" />
+		<Unit filename="source/Constants.cpp" />
+		<Unit filename="source/Constants.h" />
+		<Unit filename="source/EnemyTank.cpp" />
+		<Unit filename="source/EnemyTank.h" />
+		<Unit filename="source/Explosion.cpp" />
+		<Unit filename="source/Explosion.h" />
+		<Unit filename="source/Game.cpp" />
+		<Unit filename="source/Game.h" />
+		<Unit filename="source/Map.cpp" />
+		<Unit filename="source/Map.h" />
+		<Unit filename="source/PlayerTank.cpp" />
+		<Unit filename="source/PlayerTank.h" />
+		<Unit filename="source/Steel.cpp" />
+		<Unit filename="source/Steel.h" />
+		<Unit filename="source/TextRenderer.cpp" />
+		<Unit filename="source/TextRenderer.h" />
+		<Unit filename="source/Wall.cpp" />
+		<Unit filename="source/Wall.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
